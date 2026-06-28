@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+/* Solution */
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 32px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 52px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1 1 200px;
+}
+
+.text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
